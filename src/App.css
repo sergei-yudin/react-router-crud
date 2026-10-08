@@ -1,1 +1,104 @@
-:root{font-family:Inter,Arial,sans-serif;color:#27313d;background:#eef1f5}*{box-sizing:border-box}body{margin:0}main{max-width:760px;margin:45px auto;padding:0 20px}header{display:flex;justify-content:space-between;align-items:center}h1{font-size:42px}.primary,button{border:0;border-radius:8px;background:#4469d8;color:#fff;padding:11px 16px;text-decoration:none;font-weight:700;cursor:pointer}.mode{background:#fff0bd;padding:9px 12px;border-radius:8px}.feed{display:grid;gap:15px}.post,.card{position:relative;display:block;background:#fff;border-radius:15px;padding:25px;color:inherit;text-decoration:none;box-shadow:0 12px 35px #2f40541a}.post time,.card time{float:right;color:#8993a0;font-size:12px}.post p,.card p{font-size:18px;line-height:1.6}.card{margin-top:70px}.close{position:absolute;right:15px;top:10px;background:transparent;color:#7a8491;font-size:25px;text-decoration:none;border:0}.card form{display:grid;gap:14px}.card textarea{min-height:170px;border:1px solid #bbc4cf;border-radius:10px;padding:14px;font:inherit;resize:vertical}.card form button{justify-self:end}.card>div{display:flex;gap:9px}.danger{background:#d34848}.card a:not(.close){color:#4469d8}
+:root {
+  font-family: Inter, Arial, sans-serif;
+  color: #27313d;
+  background: #eef1f5;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+main {
+  max-width: 760px;
+  margin: 45px auto;
+  padding: 0 20px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+h1 {
+  font-size: 42px;
+}
+.primary,
+button {
+  border: 0;
+  border-radius: 8px;
+  background: #4469d8;
+  color: #fff;
+  padding: 11px 16px;
+  text-decoration: none;
+  font-weight: 700;
+  cursor: pointer;
+}
+.mode {
+  background: #fff0bd;
+  padding: 9px 12px;
+  border-radius: 8px;
+}
+.feed {
+  display: grid;
+  gap: 15px;
+}
+.post,
+.card {
+  position: relative;
+  display: block;
+  background: #fff;
+  border-radius: 15px;
+  padding: 25px;
+  color: inherit;
+  text-decoration: none;
+  box-shadow: 0 12px 35px #2f40541a;
+}
+.post time,
+.card time {
+  float: right;
+  color: #8993a0;
+  font-size: 12px;
+}
+.post p,
+.card p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+.card {
+  margin-top: 70px;
+}
+.close {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  background: transparent;
+  color: #7a8491;
+  font-size: 25px;
+  text-decoration: none;
+  border: 0;
+}
+.card form {
+  display: grid;
+  gap: 14px;
+}
+.card textarea {
+  min-height: 170px;
+  border: 1px solid #bbc4cf;
+  border-radius: 10px;
+  padding: 14px;
+  font: inherit;
+  resize: vertical;
+}
+.card form button {
+  justify-self: end;
+}
+.card > div {
+  display: flex;
+  gap: 9px;
+}
+.danger {
+  background: #d34848;
+}
+.card a:not(.close) {
+  color: #4469d8;
+}
